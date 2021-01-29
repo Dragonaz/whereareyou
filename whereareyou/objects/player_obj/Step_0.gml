@@ -29,13 +29,41 @@ y += vspd;
 else
 y += vspd/1.4;
 
-if hspd!=0 or vspd!=0
+if vspd!=0
 {
-	if sprite_index!=player_move_sp
-		sprite_index=player_move_sp;
+	if vspd>0
+	{
+		if sprite_index!=move_down_sprite
+		sprite_index=move_down_sprite;
+	}
+	else
+	{
+		if sprite_index!=move_up_sprite
+		sprite_index=move_up_sprite;
+	}
 }
-else
+else if hspd!=0
 {
-	if sprite_index!=player_stand_sp
-		sprite_index=player_stand_sp;
+	if sprite_index!=move_right_sprite
+		sprite_index=move_right_sprite;
+	if hspd>0
+	{
+		if image_xscale!=-1
+			image_xscale=-1;
+	}
+	else
+	{
+		if image_xscale!=1
+			image_xscale=1;
+	}
+}
+
+if hspd==0 and vspd==0
+{
+	if sprite_index==move_right_sprite
+			sprite_index=stand_right_sprite;
+	else if sprite_index==move_up_sprite
+		sprite_index=stand_up_sprite;
+	else if sprite_index==move_down_sprite
+		sprite_index=stand_down_sprite;
 }

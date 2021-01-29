@@ -10,6 +10,7 @@ function send_update_client(client_id){
 	buffer_write(buffer,buffer_u16,x);
 	buffer_write(buffer,buffer_u16,y);
 	buffer_write(buffer,buffer_u16,sprite_index);
+	buffer_write(buffer,buffer_s8,image_xscale);
 	
 	send_buffer();
 	buffer_delete(buffer);

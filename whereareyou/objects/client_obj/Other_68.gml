@@ -1,6 +1,5 @@
-/// @description 
-/// @description 
-    
+ if global.test_ingame==0
+ {
      var type = ds_map_find_value(async_load, "type");
     switch(type)
         {            
@@ -10,4 +9,5 @@
 				get_info();
         break;
         }
+ }
 

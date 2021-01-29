@@ -9,6 +9,7 @@ function get_update_client()
 	var client_x=buffer_read(r_buffer,buffer_u16);
 	var client_y=buffer_read(r_buffer,buffer_u16);
 	var client_sprite=buffer_read(r_buffer,buffer_u16);
+	var client_xscale=buffer_read(r_buffer,buffer_s8);
 	
 	client_instance=-1;
 	if instance_exists(client_net_obj)
@@ -24,6 +25,7 @@ function get_update_client()
 		client_instance.y=client_y;
 		if client_instance.sprite_index!=client_sprite
 		client_instance.sprite_index=client_sprite;
+		client_instance.image_xscale=client_xscale;
 	}
 	
 	

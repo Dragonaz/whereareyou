@@ -1,3 +1,6 @@
 /// @description goto menu
 
-room_goto_ef(menu_room);
+if global.test_ingame
+	room_goto_ef(island_babayaga_map);
+else
+	room_goto_ef(menu_room);

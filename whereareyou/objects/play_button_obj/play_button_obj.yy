@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "button_sp",
-    "path": "sprites/button_sp/button_sp.yy",
+    "name": "start_but_sp",
+    "path": "sprites/start_but_sp/start_but_sp.yy",
   },
   "solid": false,
   "visible": true,
