@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "female_stand_sp",
+    "path": "sprites/female_stand_sp/female_stand_sp.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
