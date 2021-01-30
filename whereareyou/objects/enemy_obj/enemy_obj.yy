@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ingame",
-    "path": "folders/Objects/ingame.yy",
+    "name": "enemys",
+    "path": "folders/Objects/ingame/enemys.yy",
   },
   "resourceVersion": "1.0",
   "name": "enemy_obj",
