@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0557c2bc-49db-4492-beff-c1951213e4ba","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "ingame",
-    "path": "folders/Sprites/ingame.yy",
+    "name": "controle",
+    "path": "folders/Sprites/ingame/controle.yy",
   },
   "resourceVersion": "1.0",
   "name": "enemy_sp",

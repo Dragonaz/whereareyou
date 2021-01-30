@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"aa63c1a5-f71d-456c-bb09-1e5a130ed385","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "ingame",
-    "path": "folders/Sprites/ingame.yy",
+    "name": "controle",
+    "path": "folders/Sprites/ingame/controle.yy",
   },
   "resourceVersion": "1.0",
   "name": "ground_sp",

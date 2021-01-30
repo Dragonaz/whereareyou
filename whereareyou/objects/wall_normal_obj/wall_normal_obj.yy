@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "wall_sp",
-    "path": "sprites/wall_sp/wall_sp.yy",
+    "name": "Sprite40",
+    "path": "sprites/Sprite40/Sprite40.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"wall_normal_obj","path":"objects/wall_normal_obj/wall_normal_obj.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"wall_normal_obj","path":"objects/wall_normal_obj/wall_normal_obj.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +31,7 @@
     "path": "folders/Objects/ingame/walls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "wall_obj",
+  "name": "wall_normal_obj",
   "tags": [],
   "resourceType": "GMObject",
 }

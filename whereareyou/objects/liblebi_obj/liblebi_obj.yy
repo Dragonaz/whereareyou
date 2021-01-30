@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "wall_sp",
-    "path": "sprites/wall_sp/wall_sp.yy",
+    "name": "liblebi_sp",
+    "path": "sprites/liblebi_sp/liblebi_sp.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "walls",
-    "path": "folders/Objects/ingame/walls.yy",
+    "name": "items",
+    "path": "folders/Objects/ingame/items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "wall_obj",
+  "name": "liblebi_obj",
   "tags": [],
   "resourceType": "GMObject",
 }
