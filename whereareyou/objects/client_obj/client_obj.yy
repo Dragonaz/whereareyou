@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ingame",
-    "path": "folders/Objects/ingame.yy",
+    "name": "controle",
+    "path": "folders/Objects/ingame/controle.yy",
   },
   "resourceVersion": "1.0",
   "name": "client_obj",
