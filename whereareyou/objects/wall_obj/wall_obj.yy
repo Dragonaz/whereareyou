@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "walls",
-    "path": "folders/Objects/ingame/walls.yy",
+    "path": "folders/Objects/ingame/map/walls.yy",
   },
   "resourceVersion": "1.0",
   "name": "wall_obj",

@@ -17,15 +17,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"map_object_parent","path":"objects/map_object_parent/map_object_parent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"map_object_parent","path":"objects/map_object_parent/map_object_parent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "enemys",
-    "path": "folders/Objects/ingame/enemys.yy",
+    "name": "map",
+    "path": "folders/Objects/ingame/map.yy",
   },
   "resourceVersion": "1.0",
-  "name": "enemys_parent",
+  "name": "map_object_parent",
   "tags": [],
   "resourceType": "GMObject",
 }

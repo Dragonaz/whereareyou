@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ingame",
-    "path": "folders/Objects/ingame.yy",
+    "name": "player",
+    "path": "folders/Objects/ingame/player.yy",
   },
   "resourceVersion": "1.0",
   "name": "player_obj",
