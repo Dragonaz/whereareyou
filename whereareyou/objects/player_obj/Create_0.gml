@@ -15,6 +15,7 @@ move_right_sprite=player_moveright_sp;
 
 
 //init
+keys=ds_list_create();
 player_speed=player_walk_speed;
 
 
