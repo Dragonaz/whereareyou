@@ -37,5 +37,8 @@ draw_set_valign(fa_top);
 draw_set_color(c_white);
 draw_text(70,165,global.player_name);
 
+//stick
+if instance_exists(player_obj) and player_obj.player_atack_times>0
+draw_sprite_ext(stick_sp,0,70+string_width(global.player_name)+50,195,0.7,0.7,0,c_white,1);
 
 

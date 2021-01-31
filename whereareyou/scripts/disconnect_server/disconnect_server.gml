@@ -5,4 +5,10 @@ function disconnect_server(){
 	global.host=0;
 	global.session_id=0;
 	global.session_code="";
+	global.player_finish_story=0;
+	for (var i=1;i<=3;i++)
+	{
+		global.client_name[i]="uknown";
+		global.client_id[i]=0;
+	}
 }

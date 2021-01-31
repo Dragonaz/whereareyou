@@ -17,6 +17,8 @@ else if sprite_index==atack_sprite
 			{
 				effect_create_above(ef_smoke,player_obj.x,player_obj.y,2,c_red);
 				controle_obj.player_health-=atack_damage;
+				if controle_obj.player_health<=0
+					show_game_over();
 			}
 		}
 	}

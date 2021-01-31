@@ -11,7 +11,7 @@ global.link_getserverip="https://drakespiritdev.com/downloads/games/whereareyou/
 global.link_getserverport="https://drakespiritdev.com/downloads/games/whereareyou/server_info/server_port.txt";
 
 //game settings
-global.test_ingame=0;
+global.test_ingame=1;
 global.game_spawn_time=100;
 
 
@@ -26,5 +26,8 @@ for (var i=1;i<=3;i++)
 	global.client_id[i]=0;
 }
 global.my_server_id=0;
+global.player_finish_story=0;
+global.gameover_reason="uknown";
+
 
 }

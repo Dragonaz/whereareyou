@@ -9,4 +9,5 @@ if global.host==0
 	female_obj.move_down_sprite=female_walk_sp;
 	female_obj.move_up_sprite=female_walkup_sp;
 	female_obj.move_right_sprite=female_walkright_sp;
+	female_obj.atack_sprite=female_atack_sp;
 }

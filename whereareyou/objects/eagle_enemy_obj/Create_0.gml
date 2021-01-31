@@ -8,9 +8,9 @@ check_rate=50;
 enemy_speed=7;
 
 //sprites
-stand_sprite=chicken_stand_sp;
-run_sprite=chicken_run_sp;
-atack_sprite=chicken_atack_sp;
+stand_sprite=eagle_stand_sp;
+run_sprite=eagle_run_sp;
+atack_sprite=eagle_atack_sp;
 
 
 

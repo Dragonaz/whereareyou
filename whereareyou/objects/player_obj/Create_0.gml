@@ -4,6 +4,7 @@
 player_walk_speed=8;
 player_atack_dis=100;
 player_atack_damage=5;
+player_atack_times=0;
 
 //sprites
 stand_down_sprite=player_stand_sp;

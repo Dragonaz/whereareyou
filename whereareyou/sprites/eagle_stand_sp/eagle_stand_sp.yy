@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 22,
-  "bbox_right": 72,
-  "bbox_top": 14,
-  "bbox_bottom": 69,
+  "bbox_left": 74,
+  "bbox_right": 281,
+  "bbox_top": 74,
+  "bbox_bottom": 289,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 112,
-  "height": 98,
+  "width": 400,
+  "height": 400,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"fb74ca3b-92d5-4e4e-83a4-aaf18b784a8b","path":"sprites/eagle_stand_sp/eagle_stand_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fb74ca3b-92d5-4e4e-83a4-aaf18b784a8b","path":"sprites/eagle_stand_sp/eagle_stand_sp.yy",},"LayerId":{"name":"27a6fffc-215b-401d-81f8-a3b34bd229f7","path":"sprites/eagle_stand_sp/eagle_stand_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"eagle_stand_sp","path":"sprites/eagle_stand_sp/eagle_stand_sp.yy",},"resourceVersion":"1.0","name":"fb74ca3b-92d5-4e4e-83a4-aaf18b784a8b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"843999bc-467e-4f80-be5d-597b41eb00ce","path":"sprites/eagle_stand_sp/eagle_stand_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"843999bc-467e-4f80-be5d-597b41eb00ce","path":"sprites/eagle_stand_sp/eagle_stand_sp.yy",},"LayerId":{"name":"5c9e073a-47f4-4a81-b5db-b2c6a185b434","path":"sprites/eagle_stand_sp/eagle_stand_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"eagle_stand_sp","path":"sprites/eagle_stand_sp/eagle_stand_sp.yy",},"resourceVersion":"1.0","name":"843999bc-467e-4f80-be5d-597b41eb00ce","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"eagle_stand_sp","path":"sprites/eagle_stand_sp/eagle_stand_sp.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d16a2a8b-c9d9-401e-8dd2-5005dd0aa011","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fb74ca3b-92d5-4e4e-83a4-aaf18b784a8b","path":"sprites/eagle_stand_sp/eagle_stand_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c58a73e6-c73a-4112-8938-5861e2ea36a5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"843999bc-467e-4f80-be5d-597b41eb00ce","path":"sprites/eagle_stand_sp/eagle_stand_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 56,
-    "yorigin": 49,
+    "xorigin": 200,
+    "yorigin": 200,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"eagle_stand_sp","path":"sprites/eagle_stand_sp/eagle_stand_sp.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"27a6fffc-215b-401d-81f8-a3b34bd229f7","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5c9e073a-47f4-4a81-b5db-b2c6a185b434","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "eagle",

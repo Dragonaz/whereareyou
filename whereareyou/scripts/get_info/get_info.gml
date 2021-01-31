@@ -36,6 +36,18 @@ function get_info()
 		case 8:
 			get_delete_client();
 		break;
+		
+		case 9:
+			get_finish_story();
+		break;
+		
+		case 10:
+			get_playagain();
+		break;
+		
+		case 11:
+			get_gameover();
+		break;
 	}
 	//clear buffers 
 	buffer_delete(r_buffer);

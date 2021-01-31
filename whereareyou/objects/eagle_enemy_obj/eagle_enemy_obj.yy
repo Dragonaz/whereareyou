@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "chicken_stand_sp",
-    "path": "sprites/chicken_stand_sp/chicken_stand_sp.yy",
+    "name": "eagle_stand_sp",
+    "path": "sprites/eagle_stand_sp/eagle_stand_sp.yy",
   },
   "solid": false,
   "visible": true,

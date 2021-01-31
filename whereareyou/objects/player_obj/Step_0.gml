@@ -3,7 +3,7 @@
 //image_angle=direction
 
 //------------------movement---------------------------------------------
-if atack==0
+if atack==0 and sprite_index!=atack_sprite
 {
 	var collision_object=wall_obj;
 	var hspd = (-keyboard_check(81) + keyboard_check(68)) * player_speed;
@@ -70,22 +70,16 @@ if atack==0
 }
 
 //atack
-if keyboard_check(32) //space
+if player_atack_times>0
 {
-	if atack==0
+	if keyboard_check(32) //space
 	{
-		atack=1;
-		last_sprite=sprite_index;
-		sprite_index=atack_sprite;
-		with enemy_parent
+		if atack==0
 		{
-			if point_distance(x,y,other.x,other.y)<=other.player_atack_dis
-			{
-				effect_create_above(ef_smokeup,x,y,2,c_gray);
-				enemy_health-=other.player_atack_damage;
-				if enemy_health<=0
-					instance_destroy(id);
-			}
+			atack=1;
+			last_sprite=sprite_index;
+			sprite_index=atack_sprite;
+			alarm_set(1,25);
 		}
 	}
 }
@@ -93,7 +87,6 @@ if sprite_index==atack_sprite
 {
 	if image_index>=image_number-1
 	{
-		sprite_index=last_sprite;
-		atack=0;
+			sprite_index=last_sprite;
 	}
 }
