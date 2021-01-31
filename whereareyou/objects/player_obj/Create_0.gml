@@ -2,8 +2,8 @@
 
 //player power
 player_walk_speed=8;
-player_sprint_speed=10;
-player_health=100;
+player_atack_dis=100;
+player_atack_damage=5;
 
 //sprites
 stand_down_sprite=player_stand_sp;
@@ -12,11 +12,14 @@ stand_right_sprite=player_standright_sp;
 move_down_sprite=player_move_sp;
 move_up_sprite=player_moveup_sp;
 move_right_sprite=player_moveright_sp;
+atack_sprite=atack_sp;
 
 
 //init
+atack=0;
 keys=ds_list_create();
 player_speed=player_walk_speed;
+last_sprite=0;
 
 
 //networking

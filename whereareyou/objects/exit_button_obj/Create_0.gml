@@ -1,2 +1,2 @@
 /// @description 
-mytext="EXIT";
+mytext="";

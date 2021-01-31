@@ -76,8 +76,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"73ee19fd-fbd2-491e-a376-4ef07ae50d86","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "doors",
-    "path": "folders/Sprites/ingame/map/doors.yy",
+    "name": "blue",
+    "path": "folders/Sprites/ingame/map/doors/blue.yy",
   },
   "resourceVersion": "1.0",
   "name": "door_open_sp",

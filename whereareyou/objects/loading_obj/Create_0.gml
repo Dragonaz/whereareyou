@@ -1,5 +1,5 @@
 /// @description 
-mytext="loading..."
+mytext="loading"
 
 //init
 randomize();

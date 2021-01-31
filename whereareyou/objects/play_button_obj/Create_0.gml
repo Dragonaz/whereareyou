@@ -1,2 +1,2 @@
 /// @description 
-mytext="PLAY";
+mytext="";
