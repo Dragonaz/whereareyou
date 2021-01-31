@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "map_object_parent",
-    "path": "objects/map_object_parent/map_object_parent.yy",
+    "name": "tree1_obj",
+    "path": "objects/tree1_obj/tree1_obj.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

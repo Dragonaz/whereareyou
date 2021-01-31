@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 13,
+  "bbox_left": 0,
   "bbox_right": 137,
-  "bbox_top": 28,
+  "bbox_top": 0,
   "bbox_bottom": 218,
   "HTile": false,
   "VTile": false,
@@ -36,6 +36,9 @@
     {"compositeImage":{"FrameId":{"name":"c94116a1-da07-4786-b759-6a5a11b68dc7","path":"sprites/atack_sp/atack_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"c94116a1-da07-4786-b759-6a5a11b68dc7","path":"sprites/atack_sp/atack_sp.yy",},"LayerId":{"name":"a0814b04-b225-4880-b699-644d228deff8","path":"sprites/atack_sp/atack_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"atack_sp","path":"sprites/atack_sp/atack_sp.yy",},"resourceVersion":"1.0","name":"c94116a1-da07-4786-b759-6a5a11b68dc7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d15ebb81-88be-4e82-acc1-0ff7710fcbbc","path":"sprites/atack_sp/atack_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d15ebb81-88be-4e82-acc1-0ff7710fcbbc","path":"sprites/atack_sp/atack_sp.yy",},"LayerId":{"name":"a0814b04-b225-4880-b699-644d228deff8","path":"sprites/atack_sp/atack_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"atack_sp","path":"sprites/atack_sp/atack_sp.yy",},"resourceVersion":"1.0","name":"d15ebb81-88be-4e82-acc1-0ff7710fcbbc","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"atack_sp","path":"sprites/atack_sp/atack_sp.yy",},
@@ -45,7 +48,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 4.0,
+    "length": 5.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -54,6 +57,7 @@
             {"id":"93a4193d-0df9-4994-ac33-c6eaf0835bb3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b1fd9317-0c73-4971-9df2-69416f7fd8a7","path":"sprites/atack_sp/atack_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"073c14c9-5523-450a-ba32-730863773eda","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"939221ff-dee1-4f19-a379-98fec4bbd1c2","path":"sprites/atack_sp/atack_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c4fc0a7c-05c5-4853-a846-35e9f2ab95e2","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c94116a1-da07-4786-b759-6a5a11b68dc7","path":"sprites/atack_sp/atack_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"176c117a-1305-4f67-8e0a-c58571b511d6","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d15ebb81-88be-4e82-acc1-0ff7710fcbbc","path":"sprites/atack_sp/atack_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
