@@ -5,7 +5,7 @@ atack_damage=1;
 atack_dis=100;
 atack_rate=50;
 check_rate=50;
-enemy_speed=3;
+enemy_speed=6;
 
 //sprites
 stand_sprite=chicken_stand_sp;

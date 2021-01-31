@@ -1,5 +1,9 @@
 /// @description
 
+show_message_async("I need to find my partner");
+show_message_async("I need to eat and becareful from enemys.");
+
+
 //player power
 player_walk_speed=8;
 player_atack_dis=100;
