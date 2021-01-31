@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "button_sp",
-    "path": "sprites/button_sp/button_sp.yy",
+    "name": "exit_but_sp",
+    "path": "sprites/exit_but_sp/exit_but_sp.yy",
   },
   "solid": false,
   "visible": true,

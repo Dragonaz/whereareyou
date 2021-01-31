@@ -2,6 +2,11 @@
 
 //init settings
 
+//health
+player_health=5;
+
+
+
 //hunger
 hunger=100;
 hunger_time=50;

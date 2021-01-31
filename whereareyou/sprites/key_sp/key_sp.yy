@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 149,
-  "bbox_top": 0,
+  "bbox_right": 145,
+  "bbox_top": 2,
   "bbox_bottom": 89,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 150,
+  "width": 146,
   "height": 90,
   "textureGroupId": {
     "name": "Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4c220eef-2dbd-40f8-af7c-37c7117ad44e","path":"sprites/key_sp/key_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4c220eef-2dbd-40f8-af7c-37c7117ad44e","path":"sprites/key_sp/key_sp.yy",},"LayerId":{"name":"652ef06a-4ed7-4fe7-b622-63f125579d43","path":"sprites/key_sp/key_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"key_sp","path":"sprites/key_sp/key_sp.yy",},"resourceVersion":"1.0","name":"4c220eef-2dbd-40f8-af7c-37c7117ad44e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0cf52906-9fc2-4ee6-b0d0-3c839588fb32","path":"sprites/key_sp/key_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0cf52906-9fc2-4ee6-b0d0-3c839588fb32","path":"sprites/key_sp/key_sp.yy",},"LayerId":{"name":"4bb6fae4-1f6c-40d9-9368-ea3860184ad0","path":"sprites/key_sp/key_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"key_sp","path":"sprites/key_sp/key_sp.yy",},"resourceVersion":"1.0","name":"0cf52906-9fc2-4ee6-b0d0-3c839588fb32","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"key_sp","path":"sprites/key_sp/key_sp.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b020894d-79c4-4b69-b592-2afb7dc8cab4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4c220eef-2dbd-40f8-af7c-37c7117ad44e","path":"sprites/key_sp/key_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1fb7cf68-1e2e-4a8c-96a6-21af89245169","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0cf52906-9fc2-4ee6-b0d0-3c839588fb32","path":"sprites/key_sp/key_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 75,
+    "xorigin": 73,
     "yorigin": 45,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,11 +65,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"652ef06a-4ed7-4fe7-b622-63f125579d43","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4bb6fae4-1f6c-40d9-9368-ea3860184ad0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "doors",
-    "path": "folders/Sprites/ingame/map/doors.yy",
+    "name": "blue",
+    "path": "folders/Sprites/ingame/map/doors/blue.yy",
   },
   "resourceVersion": "1.0",
   "name": "key_sp",

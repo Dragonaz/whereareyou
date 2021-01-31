@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 399,
+  "bbox_right": 799,
   "bbox_top": 0,
-  "bbox_bottom": 99,
+  "bbox_bottom": 262,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 400,
-  "height": 100,
+  "width": 800,
+  "height": 263,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -103,9 +103,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4c9feabe-108b-4384-863e-25ad749f5f53","path":"sprites/button_sp/button_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4c9feabe-108b-4384-863e-25ad749f5f53","path":"sprites/button_sp/button_sp.yy",},"LayerId":{"name":"60b0b4c5-8d0d-4232-a331-ea42cb34d8c7","path":"sprites/button_sp/button_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"button_sp","path":"sprites/button_sp/button_sp.yy",},"resourceVersion":"1.0","name":"4c9feabe-108b-4384-863e-25ad749f5f53","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8fa32914-0ea9-49e4-aed6-79e5faa6e33c","path":"sprites/button_sp/button_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8fa32914-0ea9-49e4-aed6-79e5faa6e33c","path":"sprites/button_sp/button_sp.yy",},"LayerId":{"name":"12fd0072-07a4-4787-886e-74dbe068a670","path":"sprites/button_sp/button_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"button_sp","path":"sprites/button_sp/button_sp.yy",},"resourceVersion":"1.0","name":"8fa32914-0ea9-49e4-aed6-79e5faa6e33c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"button_sp","path":"sprites/button_sp/button_sp.yy",},
@@ -120,7 +120,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5af0b273-47cd-4125-9464-537e3d9b325c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4c9feabe-108b-4384-863e-25ad749f5f53","path":"sprites/button_sp/button_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6832cb9e-bc65-41b0-a019-3e3d6f5eb5bd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8fa32914-0ea9-49e4-aed6-79e5faa6e33c","path":"sprites/button_sp/button_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -133,8 +133,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 200,
-    "yorigin": 50,
+    "xorigin": 400,
+    "yorigin": 131,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"button_sp","path":"sprites/button_sp/button_sp.yy",},
@@ -144,7 +144,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"60b0b4c5-8d0d-4232-a331-ea42cb34d8c7","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"12fd0072-07a4-4787-886e-74dbe068a670","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "parents",

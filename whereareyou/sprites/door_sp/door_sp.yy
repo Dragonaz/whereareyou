@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d9a455fb-328c-4169-be12-5d1a3959ce8c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "doors",
-    "path": "folders/Sprites/ingame/map/doors.yy",
+    "name": "blue",
+    "path": "folders/Sprites/ingame/map/doors/blue.yy",
   },
   "resourceVersion": "1.0",
   "name": "door_sp",
