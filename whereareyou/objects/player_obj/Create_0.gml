@@ -1,7 +1,7 @@
 /// @description
-
-show_message_async("I need to find my partner");
-show_message_async("I need to eat and becareful from enemys.");
+show_message_async("Where i'm i?");
+show_message_async("I need to find my partner..");
+show_message_async("where should i go?");
 
 
 //player power

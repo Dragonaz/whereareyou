@@ -3,9 +3,8 @@ if instance_exists(player_obj)
 {
 	if hunger>0
 		hunger-=hunger_consume;
-	if hunger<0
+	else
 	{
-		hunger=0;
 		show_game_over();
 	}
 }

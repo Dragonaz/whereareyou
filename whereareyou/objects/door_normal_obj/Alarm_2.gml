@@ -11,7 +11,13 @@ if ds_list_size(toucher.keys)>0
 		sprite_index=door_open_sprite;
 	}
 	else
+	{
+		show_message_async("i dont have the key for that door..");
 		show_debug_message("didnt found correct key");
+	}
 }
 else
+{
+	show_message_async("i dont have any key to open that door..");
 	show_debug_message("player dont have any key");
+}

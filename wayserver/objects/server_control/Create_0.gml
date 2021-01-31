@@ -2,7 +2,7 @@
 
 //server options
 server_port=8463;
-max_sessions=2;
+max_sessions=10;
 session_capacity=2;
 
 
