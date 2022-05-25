@@ -2,7 +2,7 @@
 mytext="connecting to server...";
 
 global.my_socket = network_create_socket(network_socket_tcp);
-var connection_sheck = network_connect(global.my_socket, server_ip, server_port);
+var connection_sheck = network_connect(global.my_socket, "127.0.0.1", 8463);
 if connection_sheck<0
 {
 	disconnect_server();
